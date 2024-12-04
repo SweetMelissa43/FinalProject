@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Attractions in Chattanooga</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/styles.css">
+  <link rel="icon" type="image/png" href="images/favicon-32x32.png">
+  <style>
+    /* Add styles for two-column layout */
+    .two-column {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .two-column img {
+      width: 100%;
+      height: auto;
+    }
+
+    .column-content {
+      padding: 10px;
+    }
+
+    /* Make sure to stack columns vertically on smaller screens */
+    @media (max-width: 768px) {
+      .two-column {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+    <div id="container">
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="attractions.html">Attractions</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="stays.html">Stays</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Must-See Attractions</h1>
+
+    <div class="two-column">
+      <!-- Left Column (Text Content) -->
+      <div class="column-content">
+        <p>Chattanooga is home to a variety of natural and historical attractions, offering something for everyone. Whether you're exploring outdoors or enjoying the local culture, there's always something new to discover. From the breathtaking views to the fascinating exhibits, Chattanooga offers world-class experiences that you won’t want to miss.</p>
+        <p></p>
+        
+        <ul>
+          <li><a href="https://www.seerockcity.com/plan-your-visit/">Rock City</a></li>
+          <li><a href="https://tnaqua.org/">Tennessee Aquarium</a></li>
+          <li><a href="https://ridetheincline.com/">Incline Railway</a></li>
+          <li><a href="https://outdoorchattanooga.com/activities/hiking/">Scenic Hikes</a></li>
+        </ul>
+        <p>Rock City is a 14-acre garden and natural rock formation site located just a short drive from downtown Chattanooga. Famous for its dramatic views, unique geological features, and whimsical atmosphere, Rock City provides visitors with an immersive experience that combines the beauty of nature with the magic of storytelling.</p>
+        <p>The Tennessee Aquarium in Chattanooga offers an immersive experience with two main exhibits: River Journey, showcasing Tennessee River ecosystems, and Ocean Journey, featuring marine life like penguins and sea turtles. It combines wonder and education, with interactive exhibits, live shows, and a focus on conservation. A must-visit for families and nature lovers, the aquarium highlights the beauty and importance of aquatic ecosystems.</p>
+      
+        <p>Don’t forget to visit the iconic Lookout Mountain and the famous Incline Railway for a fun and scenic ride up the mountain!</p>
+      </div>
+
+      <!-- Right Column (Images) -->
+      <div class="column-content">
+        <img src="images/RockCity.jpg" alt="RockCity">
+        <img src="images/Rock.jpg" alt="RockCity">
+        <img src="images/Incline-24.jpg" alt="Incline-24">
+      </div>
+    </div>
+  </main>
+
+  <footer>&copy; 2024 Chattanooga Final Project</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events in Chattanooga</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/styles.css">
+  <link rel="icon" type="image/png" href="images/favicon-32x32.png">
+  <style>
+    /* Add styles for two-column layout */
+    .two-column {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .two-column img {
+      width: 100%;
+      height: auto;
+    }
+
+    .column-content {
+      padding: 10px;
+    }
+
+    /* Make sure to stack columns vertically on smaller screens */
+    @media (max-width: 768px) {
+      .two-column {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+    <div id="container">
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="attractions.html">Attractions</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="stays.html">Stays</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <img class="chatt_tn" src="images/WOW.jpg" alt="WOW">
+    <h1>Happenings</h1>
+
+    <div class="two-column">
+      <!-- Left Column (Text Content) -->
+      <div class="column-content">
+        <p>Chattanooga hosts a variety of events year-round, celebrating everything from music festivals to food events to outdoor adventures. There's always something exciting happening in the Scenic City!</p>
+        <p>Be sure to check out some of the city’s most popular annual events, like the Riverbend Festival or the Chattanooga Market, for a great experience.</p>
+        <p>Whether you're visiting for a weekend or a week, you’ll find something fun and unique to enjoy.</p>
+        
+        <ul>
+          <li><a href= "https://www.riverbendfestival.com/about">Riverbend</a></li>
+          <li><a href= "https://www.preservechattanooga.com/wineoverwater">Wine Over Water</a></li>
+          <li><a href= "https://chattanoogamarket.com/">Chattanooga Market</a></li>
+          <li><a href= "https://www.iceonthelanding.com/">Ice On The Landing</a></li>
+          <li><a href= "https://www.ironman.com/im-chattanooga">Ironman</a></li>
+          <li><a href= "https://www.visitchattanooga.com/events/festivals-and-annual-events/upcoming/">Annual Events</a></li>
+        </ul>
+      </div>
+
+      <!-- Right Column (Images) -->
+      <div class="column-content">
+        
+        <img class="chatt_tn" src="images/Market.jpg" alt="Market">  
+        <img class="chatt_tn" src="images/Ironman.jpg" alt="Ironman"> 
+        <img class="chatt_tn" src="images/Riverbend.jpg" alt="Riverbend">
+      </div>
+    </div>
+  </main>
+
+  <footer>&copy; 2024 Chattanooga Final Project</footer>
+</div>
+</body>
+</html>
